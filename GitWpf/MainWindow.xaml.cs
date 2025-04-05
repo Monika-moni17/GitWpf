@@ -38,4 +38,9 @@ public partial class MainWindow : Window
         this.Close();
     }
 
+    private void Signin_Click(object sender, RoutedEventArgs e)
+    {
+        SigninPageWindow signinPage = new SigninPageWindow();
+        signinPage.Show();
+    }
 }
